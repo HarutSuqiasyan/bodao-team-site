@@ -1,0 +1,370 @@
+main {
+  padding-top: 150px;
+}
+main .main__block__1 {
+  justify-content: center;
+  min-height: 913px;
+  display: flex;
+  padding-left: 116px;
+}
+main .main__block__1 .mb1__img {
+  border-top-left-radius: 177px;
+  border-bottom-right-radius: 177px;
+  min-width: 650px;
+  height: 800px;
+  background-image: url(../Img/prateek-katyal-FNMztJegsSA-unsplash\ 1.png);
+}
+main .main__block__1 .mb1__content {
+  padding-left: 50px;
+}
+main .main__block__1 .mb1__content h2 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+}
+main .main__block__1 .mb1__content .p {
+  padding-top: 60px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 80px;
+}
+main .main__block__1 .mb1__content .content__btn {
+  display: flex;
+  min-width: 150px;
+  height: 50px;
+  background-color: #F9BA50;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  align-items: center;
+  margin-right: 120px;
+}
+main .main__block__1 .mb1__content .content__btn .arrow {
+  margin-left: 40px;
+  margin-right: 140px;
+  background-image: url(../Img/Vector\ \(3\).png);
+  width: 25px;
+  height: 12px;
+}
+main .main__block__1 .mb1__content .content__btn p {
+  margin-right: 40px;
+  font-size: 18px;
+  color: #fff;
+}
+main .trainer__section {
+  padding-top: 100px;
+}
+main .trainer__section .title {
+  padding-left: 65px;
+  padding-bottom: 100px;
+}
+main .trainer__section .title h2 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+}
+main .trainer__section .trainers {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .trainer__section .trainers .boys__trainer__secton, main .trainer__section .trainers .girls__trainer__section {
+  position: relative;
+  width: 630px;
+  height: 550px;
+  background-image: url(../Img/Rectangle\ 23\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .trainer__section .trainers .boys__trainer__secton .boys__content, main .trainer__section .trainers .boys__trainer__secton .girls__content, main .trainer__section .trainers .girls__trainer__section .boys__content, main .trainer__section .trainers .girls__trainer__section .girls__content {
+  position: absolute;
+  top: 79%;
+  z-index: 5;
+}
+main .trainer__section .trainers .boys__trainer__secton .boys__content span, main .trainer__section .trainers .boys__trainer__secton .girls__content span, main .trainer__section .trainers .girls__trainer__section .boys__content span, main .trainer__section .trainers .girls__trainer__section .girls__content span {
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+}
+main .trainer__section .trainers .boys__trainer__secton .boys__content span:first-child, main .trainer__section .trainers .boys__trainer__secton .girls__content span:first-child, main .trainer__section .trainers .girls__trainer__section .boys__content span:first-child, main .trainer__section .trainers .girls__trainer__section .girls__content span:first-child {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.1px;
+}
+main .trainer__section .trainers .boys__trainer__secton .boys__content p, main .trainer__section .trainers .boys__trainer__secton .girls__content p, main .trainer__section .trainers .girls__trainer__section .boys__content p, main .trainer__section .trainers .girls__trainer__section .girls__content p {
+  color: #fff;
+  font-size: 18px;
+}
+main .trainer__section .trainers .girls__trainer__section {
+  background-image: url(../Img/Rectangle\ 25\ \(2\).png);
+}
+main .main__block__3 {
+  margin-top: 100px;
+}
+main .main__block__3 .mb3__title {
+  padding-left: 120px;
+  padding-bottom: 100px;
+}
+main .main__block__3 .mb3__title h2 {
+  font-weight: 700;
+  font-size: 72px;
+  color: #fff;
+}
+main .main__block__3 .mb3__image__block {
+  display: flex;
+}
+main .main__block__3 .mb3__image__block .mb3__image__1, main .main__block__3 .mb3__image__block .mb3__image__2, main .main__block__3 .mb3__image__block .mb3__image__3, main .main__block__3 .mb3__image__block .mb3__image__4 {
+  width: 480px;
+  background-size: contain;
+  height: 480px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.1px;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+main .main__block__3 .mb3__image__block .mb3__image__1 {
+  background-image: url(../Img/Rectangle\ 27\ \(5\).png);
+}
+main .main__block__3 .mb3__image__block .mb3__image__2 {
+  background-image: url(../Img/Rectangle\ 28.png);
+}
+main .main__block__3 .mb3__image__block .mb3__image__3 {
+  background-image: url(../Img/Rectangle\ 26.png);
+}
+main .main__block__3 .mb3__image__block .mb3__image__4 {
+  background-image: url(../Img/Rectangle\ 29.png);
+}
+main .prize__section {
+  margin-top: 100px;
+}
+main .prize__section .items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  /*             grid-template-columns: auto auto auto;
+              grid-row-gap: 30px; */
+}
+main .prize__section .prize__section__title {
+  padding-left: 120px;
+  padding-bottom: 100px;
+}
+main .prize__section .prize__section__title h2 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+}
+main .prize__section .prize__section__item {
+  display: flex;
+  background-color: #17171A;
+  width: 410px;
+  height: 540px;
+  flex-direction: column;
+}
+main .prize__section .prize__section__item .item__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+main .prize__section .prize__section__item .item__head h4 {
+  padding-left: 30px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+}
+main .prize__section .prize__section__item .item__head p {
+  font-size: 16px;
+  padding-right: 30px;
+  color: #fff;
+}
+main .prize__section .prize__section__item .item__body {
+  padding-top: 50px;
+}
+main .prize__section .prize__section__item .item__body p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 30px;
+}
+main .prize__section .prize__section__item .prize {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 72px;
+}
+main .prize__section .prize__section__item .prize h4 {
+  padding-left: 30px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+}
+main .prize__section .prize__section__item .prize del {
+  font-size: 24px;
+  font-weight: 700;
+  padding-right: 40px;
+  color: #fff;
+}
+main .prize__section .prize__section__item .prize__section__btn {
+  display: flex;
+  min-width: 350px;
+  margin-left: 30px;
+  margin-top: 30px;
+  height: 50px;
+  background-color: #F9BA50;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  align-items: center;
+  margin-right: 120px;
+  justify-content: center;
+}
+main .prize__section .prize__section__item .prize__section__btn .arrow {
+  margin-right: 40px;
+  background-image: url(../Img/Vector\ \(3\).png);
+  width: 25px;
+  height: 12px;
+}
+main .prize__section .prize__section__item .prize__section__btn p {
+  margin-right: 40px;
+  color: #fff;
+}
+main .instagram__block__section {
+  padding-top: 100px;
+}
+main .instagram__block__section .title {
+  padding-bottom: 100px;
+  padding-left: 120px;
+}
+main .instagram__block__section .title h2 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+}
+main .instagram__block__section .insta__block__images .insta__block__items {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 30px;
+  justify-content: center;
+}
+main .instagram__block__section .insta__block__images .insta__block__items .image__item img {
+  width: 410px;
+  height: 410px;
+}
+
+@media screen and (max-width: 1280px) {
+  .main__block__1 {
+    padding-left: 0px !important;
+  }
+  .main__block__1 .mb1__img {
+    border-top-left-radius: 117px !important;
+    min-width: 354px !important;
+    height: 436px !important;
+  }
+  .main__block__1 .mb1__content {
+    padding-left: 0px !important;
+  }
+  .main__block__1 .mb1__content h2 {
+    font-size: 36px !important;
+  }
+  .main__block__1 .mb1__content .p {
+    font-size: 16px !important;
+    padding-bottom: 50px !important;
+  }
+  .mb3__image__block {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .mb3__image__block .mb3__image__1, .mb3__image__block .mb3__image__2, .mb3__image__block .mb3__image__3, .mb3__image__block .mb3__image__4 {
+    width: 300px !important;
+    height: 300px !important;
+    justify-content: center !important;
+    background-size: cover !important;
+    background-position: center center;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main__block__1 {
+    display: grid !important;
+    justify-content: center !important;
+  }
+  .main__block__1 .mb1__content h2 {
+    text-align: center !important;
+  }
+  .main__block__1 .mb1__content p {
+    text-align: center !important;
+  }
+  .main__block__1 .content__btn {
+    margin-right: 0px !important;
+    min-width: 100px !important;
+  }
+  .mb1__img {
+    width: 320px !important;
+    height: 300px !important;
+  }
+  .trainer__section {
+    margin-top: 45px !important;
+  }
+  .trainer__section .title {
+    padding-left: 0 !important;
+  }
+  .trainer__section .title h2 {
+    text-align: center;
+    font-size: 36px !important;
+  }
+  .trainer__section .boys__trainer__secton, .trainer__section .girls__trainer__section {
+    width: 350px !important;
+    height: 310px !important;
+  }
+  .trainers .boys__trainer__secton .boys__content span, .trainers .boys__trainer__secton .girls__content span, .trainers .girls__trainer__section .boys__content span, .trainers .girls__trainer__section .girls__content span {
+    font-size: 36px !important;
+  }
+  .trainers .boys__trainer__secton .boys__content p, .trainers .boys__trainer__secton .girls__content p, .trainers .girls__trainer__section .boys__content p, .trainers .girls__trainer__section .girls__content p {
+    font-size: 14px !important;
+  }
+  .main__block__3 .mb3__title {
+    padding-left: 0 !important;
+    text-align: center;
+  }
+  .main__block__3 .mb3__title h2 {
+    font-size: 36px !important;
+  }
+  .prize__section__title {
+    padding-left: 0 !important;
+    text-align: center;
+  }
+  .prize__section__title h2 {
+    font-size: 36px !important;
+  }
+  .instagram__block__section .title {
+    padding-left: 0 !important;
+    text-align: center;
+  }
+  .instagram__block__section .title h2 {
+    font-size: 36px !important;
+  }
+  .instagram__block__section .image__item img {
+    width: 254px !important;
+    height: 254px !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .girls__trainer__section {
+    margin-top: 55px !important;
+  }
+  .prize__section__item {
+    width: 325px !important;
+  }
+  .prize__section__item .prize__section__btn {
+    min-width: 300px !important;
+    margin-left: 0 !important;
+  }
+  .main__block__1 .content__btn {
+    min-width: 100px !important;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,392 @@
+@import './variables.scss';
+
+main{
+    padding-top: 150px;
+    .main__block__1{
+        justify-content: center;
+        min-height: 913px;
+        display: flex;
+        padding-left: 116px;
+        .mb1__img{
+            border-top-left-radius: 177px;
+            border-bottom-right-radius: 177px;
+            min-width: 650px;
+            height: 800px;
+            background-image: url(../Img/prateek-katyal-FNMztJegsSA-unsplash\ 1.png);
+        }
+        .mb1__content{
+            padding-left: 50px;
+            h2{
+                color: #fff;
+                font-size: 72px;
+                font-weight: 700;
+            }
+            .p{
+                padding-top: 60px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 500;
+                padding-bottom: 80px;
+            }
+            .content__btn{
+                display: flex;
+                min-width: 150px;
+                height: 50px;
+                background-color: $primary;
+                border-top-right-radius: 40px;
+                border-bottom-right-radius: 40px;
+                align-items: center;
+                margin-right: 120px;
+                .arrow{
+                    margin-left: 40px;
+                    margin-right: 140px;
+                    background-image: url(../Img/Vector\ \(3\).png);
+                    width: 25px;
+                    height: 12px;
+                }
+                p{
+                    margin-right: 40px;
+                    font-size: 18px;
+                    color:#fff;
+                }
+            }
+        }
+    }
+    .trainer__section{
+        padding-top: 100px;
+        .title{
+            padding-left: 65px;
+            padding-bottom: 100px;
+            h2{
+                color: #fff;
+                font-size: 72px;
+                font-weight: 700;
+            }
+        }
+        .trainers{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            .boys__trainer__secton,.girls__trainer__section{
+                position: relative;
+                width: 630px;
+                height: 550px;
+                background-image: url(../Img/Rectangle\ 23\ \(1\).png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                .boys__content,.girls__content{
+                    position: absolute;
+                    top: 79%;
+                    z-index: 5;
+                    span{
+                        font-size: 64px;
+                        font-weight: 700;
+                        color: #fff;
+                        &:first-child{
+                            -webkit-text-fill-color: transparent;
+                            -webkit-text-stroke-width: 0.1px;
+                        }
+                    }
+                    p{
+                        color: #fff;
+                        font-size: 18px;
+                    }
+                }
+            }
+            .girls__trainer__section{
+                background-image: url(../Img/Rectangle\ 25\ \(2\).png);
+            }
+        }
+    }
+    .main__block__3{
+        margin-top: 100px;
+        .mb3__title{
+            padding-left: 120px;
+            padding-bottom: 100px;
+            h2{
+                font-weight: 700;
+                font-size: 72px;
+                color: #fff;
+            }
+        }
+        .mb3__image__block{
+            display: flex;
+            .mb3__image__1,.mb3__image__2,.mb3__image__3,.mb3__image__4{
+                width: 480px;
+                background-size: contain;
+                height: 480px;
+                background-repeat: no-repeat;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-transform: uppercase;
+                color: #fff;
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke-width: 0.1px;
+                font-size: 30px;
+                font-weight: 500;
+                text-align: center;
+            }
+            .mb3__image__1{
+                background-image: url(../Img/Rectangle\ 27\ \(5\).png);
+            }
+            .mb3__image__2{
+                background-image: url(../Img/Rectangle\ 28.png);
+            }
+            .mb3__image__3{
+                background-image: url(../Img/Rectangle\ 26.png);
+            }
+            .mb3__image__4{
+                background-image: url(../Img/Rectangle\ 29.png);
+            }
+        }
+    }
+    .prize__section{
+        margin-top: 100px;
+        .items{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+
+/*             grid-template-columns: auto auto auto;
+            grid-row-gap: 30px; */
+        }
+        .prize__section__title{
+            padding-left: 120px;
+            padding-bottom: 100px;
+            h2{
+                color: #fff;
+                font-size: 72px;
+                font-weight: 700;
+            }
+        }
+        .prize__section__item{
+            display: flex;
+            background-color: #17171A;
+            width: 410px;
+            height: 540px;
+            flex-direction: column;
+            .item__head{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 30px;
+                h4{
+                    padding-left: 30px;
+                    font-size: 36px;
+                    font-weight: 700;
+                    color: #fff;
+                }
+                p{
+                    font-size: 16px;
+                    padding-right: 30px;
+                    color: #fff;
+                }
+            }
+            .item__body{
+                padding-top: 50px;
+                p{
+                    color: #fff;
+                    font-weight: 500;
+                    font-size: 18px;
+                    padding-left: 30px;
+                }
+            }
+            .prize{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 72px;
+                h4{
+                    padding-left: 30px;
+                    color: #fff;
+                    font-size: 36px;
+                    font-weight: 700;
+                }
+                del{
+                    font-size: 24px;
+                    font-weight: 700;
+                    padding-right: 40px;
+                    color: #fff;
+                }
+            }
+            .prize__section__btn{
+                display: flex;
+                min-width: 350px;
+                margin-left: 30px;
+                margin-top: 30px;
+                height: 50px;
+                background-color: $primary;
+                border-top-right-radius: 40px;
+                border-bottom-right-radius: 40px;
+                align-items: center;
+                margin-right: 120px;
+                justify-content: center;
+                .arrow{
+                    margin-right: 40px;
+                    background-image: url(../Img/Vector\ \(3\).png);
+                    width: 25px;
+                    height: 12px;
+                }
+                p{
+                    margin-right: 40px;
+                    color:#fff;
+                }
+            }
+        }
+    }
+    .instagram__block__section{
+        padding-top: 100px;
+        .title{
+            padding-bottom: 100px;
+            padding-left: 120px;
+            h2{
+                color: #fff;
+                font-size: 72px;
+                font-weight: 700;
+            }
+        }
+        .insta__block__images{
+            .insta__block__items{
+                display: flex;
+                flex-flow: row wrap;
+                gap: 30px;
+                justify-content: center;
+                .image__item{
+                    img{
+                        width: 410px;
+                        height:410px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1280px){
+    .main__block__1{
+        padding-left: 0px !important;
+        .mb1__img{
+            border-top-left-radius: 117px !important;
+            min-width: 354px !important;
+            height: 436px !important;
+        }
+        .mb1__content{
+            padding-left: 0px !important;
+            h2{
+                font-size: 36px !important;
+            }
+            .p{
+                font-size: 16px !important;
+                padding-bottom: 50px !important;
+            }
+        }
+    }
+    .mb3__image__block{
+        flex-wrap: wrap;
+        justify-content: center !important;
+        .mb3__image__1,.mb3__image__2,.mb3__image__3,.mb3__image__4{
+            width: 300px !important;
+            height: 300px !important;
+            justify-content: center !important;
+            background-size: cover !important; 
+            background-position: center center;
+        }
+    }
+}
+@media screen and (max-width: 1000px) {
+    .main__block__1{
+        display: grid !important;
+        justify-content: center !important;
+        .mb1__content{
+            h2{
+                text-align: center !important;
+            }
+            p{
+                text-align: center !important;
+            }
+        }
+        .content__btn{
+            margin-right: 0px !important;
+            min-width: 100px !important;
+        }
+    }
+    .mb1__img{
+        width: 320px !important;
+        height: 300px !important;
+    }
+    .trainer__section{
+        margin-top: 45px !important;
+        .title{
+            padding-left: 0 !important;
+            h2{
+                text-align: center;
+                font-size: 36px !important;
+            }
+        }
+        .boys__trainer__secton,.girls__trainer__section{
+            width: 350px !important;
+            height: 310px !important;
+        }
+    }
+    .trainers{
+        .boys__trainer__secton,.girls__trainer__section{
+            .boys__content,.girls__content{
+                span{
+                    font-size: 36px !important;
+                }
+                p{
+                    font-size: 14px !important;
+                }
+            }
+        }
+    }
+    .main__block__3{
+        .mb3__title{
+            padding-left: 0 !important;
+            text-align: center;
+            h2{
+                font-size: 36px !important;
+            }
+        }
+    }
+    .prize__section__title{
+        padding-left: 0 !important;
+        text-align: center;
+        h2{
+            font-size: 36px !important;
+        }
+    }
+    .instagram__block__section{
+        .title{
+            padding-left: 0 !important;
+            text-align: center;
+            h2{
+                font-size: 36px !important;
+            }
+        }
+        .image__item{
+            img{
+                width: 254px !important;
+                height: 254px !important;
+            }
+        }
+    }
+}
+@media screen and (max-width: 700px) {
+    .girls__trainer__section{
+        margin-top: 55px !important;
+    }
+    .prize__section__item{
+        width: 325px !important;
+        .prize__section__btn{
+            min-width: 300px !important;
+            margin-left: 0 !important;
+        }
+    }
+    .main__block__1{
+        .content__btn{
+            min-width: 100px !important;
+        }
+    }
+}

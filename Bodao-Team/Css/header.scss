@@ -1,0 +1,162 @@
+@import './variables.scss';
+header{
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            padding-left: 120px;
+        }
+        .location__section,.call__section{
+            display: flex;
+            .lockation__text,.call__text{
+                display: flex;
+                flex-direction: column;
+                color: #fff;
+            }
+        }
+        .location__section{
+            display: flex;
+            align-items: center;
+            .lockation__image{
+                width: 28px;
+                height: 40px;
+            }
+            .lockation__text{
+                font-size: 16px;
+                font-weight: 500;
+                padding-left: 15px;
+                gap: 18px;
+            }
+        }
+        .call__section{
+            display: flex;
+            align-items: center;
+            padding-right: 120px;
+            .call__text{
+                padding-left: 15px;
+                gap: 18px;
+                p{
+                    font-weight: 700;
+                    font-size: 20px;
+                }
+                a{
+                    font-weight: 400;
+                    font-size: 12px;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .header__content{
+        background-image: url(../Img/portrait-male-boxer-posing\ 1.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        width: 100%;
+        min-height: 750px;
+        .content__top{
+            padding-top: 115px;
+            margin-left: 120px;
+            padding-bottom: 154px;
+            p{
+                color: #fff;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 31px;
+            }
+        }
+        .content__center{
+            display: flex;
+            justify-content: center;
+            h2{
+                color: #fff;
+                font-size: 72px;
+                font-weight: 700;
+                word-spacing: 74px;
+                text-align: center;
+            }
+        }
+        .content__bottom{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 197px;
+            p{
+                padding-left: 120px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 500;
+            }
+            .content__btn{
+  
+            }
+        }
+    }
+}
+@media screen and (max-width: 1000px) {
+    .call__text{
+        font-size: 16px !important;
+    }
+    .lockation__text{
+        p{
+            font-size: 14px !important; 
+        }
+    }
+    .logo{
+        padding-left: 20px !important;
+    }
+    .content__bottom{
+        p{
+            padding-left: 20px !important;
+        }
+    }
+    .call__section, .content__btn{
+        padding-right: 20px !important;
+        margin-right: 20px !important;
+    }
+}
+@media screen and (max-width: 750px) {
+    .content__center{
+        h2{
+            font-size: 55px !important;
+            padding: 0 !;
+        }
+    }
+    nav{
+        
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        .logo{
+            padding-left: 0px !important;
+        }
+    }
+    .call__section{
+        padding-top: 0px !important;
+    }
+    .content__top{
+        margin-left: 0px !important;
+        p{
+            text-align: center;
+        }
+    }
+    .content__bottom{
+        p{
+            text-align: center;
+            padding-bottom: 20px !important;
+            padding-left: 0 !important;
+        }
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        .content__btn{
+            align-items: center !important;
+            .arrow{
+                margin-left: 20px !important;
+            }
+            p{
+                padding: 0 !important;
+                margin-left: 40px !important;
+            }
+        }
+    }
+}
